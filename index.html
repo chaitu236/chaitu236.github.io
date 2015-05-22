@@ -10,97 +10,104 @@
   
   
   <style type="text/css">
-#topcolor {
+#topbar {
   background-color: #6666cc;
   height: 150px;
+  width: 100%;
+  text-align: center;
 }
-#leftbrowse {
-  width: 200px;
+
+#browse {
   color: white;
   background-color: #ccccff;
   font-size: 16pt;
 }
+
 #titlename {
   font-style: italic;
   font-size: 40pt;
   color: white;
-  padding-right: 1%;
+  /*padding-right: 1%;*/
+  vertical-align: bottom;
+  text-align: right;
 }
-html {
-  height: 90%;
-}
+
 body {
-  height: 100%;
+  font-size: 16px;
 }
+
+#content {
+  text-align: center;
+}
+
 #smedia {
-  background: white;
-  border-radius: 15px;
+  width: 100%;
+  vertical-align: top;
+}
+#smedia table{
+  border-radius: 20px;
   padding: 3px;
+  background: white;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#smedia img{
+  border: 0px solid;
+  width: 32px;
+  height: 32px;
 }
 
   </style>
 </head><body class="pght">
-<table style="text-align: left; width: 100%; height: 100%;" border="0" cellpadding="2" cellspacing="1">
-
+<table style="width: 100%;" border="0" cellpadding="0" cellspacing="1">
   <tbody>
-    <tr id="topcolor">
-      <td style="vertical-align: top;"><br>
-      </td>
-      <td style="vertical-align: middle; text-align: right;"><span style="font-weight: bold;"> </span>
-      <div id="titlename">Chaitanya Vadrevu<span style="font-weight: bold;"></span></div>
+    <tr>
+      <td>
+        <table id="topbar">
+          <tbody>
+            <tr>
+              <td>
+              <div id="titlename">Chaitanya Vadrevu</div>
+              </td>
+            </tr>
+            <tr id="smedia">
+              <td>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <a href="http://www.linkedin.com/in/chaitanyavadrevu/"><img alt="Linkedin" src="imgs/linkedin.svg"></a>
+                      </td>
+                      <td>
+                        <a href="https://github.com/chaitu236"><img alt="github" src="imgs/github.svg"></a>
+                      </td>
+                      <td>
+                        <a href="https://www.google.com/+ChaitanyaVadrevu"><img alt="google plus" src="imgs/googleplus.svg"></a>
+                      </td>
+                      <td>
+                        <a href="https://www.facebook.com/chaitanya.vadrevu"><img alt="facebook" src="imgs/facebook.svg"></a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      <td style="vertical-align: top;">
       </td>
     </tr>
     <tr>
-      <td style="vertical-align: top;" id="leftbrowse">
-      <table style="text-align: left; width: 100%; height: 100px;" border="0" cellpadding="2" cellspacing="2">
-        <tbody>
-          <tr align="center">
-            <td style="vertical-align: top;">Home<br>
-            </td>
-          </tr>
-          <tr align="center">
-            <td style="vertical-align: top;">Projects<br>
-            </td>
-          </tr>
-          <tr align="center">
-            <td style="vertical-align: top;">Resume<br>
-            </td>
-          </tr>
-          <tr align="center">
-            <td style="vertical-align: top;">Contact<br>
-            </td>
-          </tr>
-          <tr align="center">
-            <td style="vertical-align: top;">
-            <table style="text-align: left; width: 60px; height: 100%;" id="smedia" border="0" cellpadding="0" cellspacing="2">
-              <tbody id="smedia">
-                <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="https://www.facebook.com/chaitanya.vadrevu"><img style="border: 0px solid ; width: 32px; height: 32px;" alt="facebook" src="imgs/1432280814_facebook.svg"></a></td>
-                  <td style="vertical-align: top; text-align: center;"><a href="https://www.google.com/+ChaitanyaVadrevu"><img style="border: 0px solid ; width: 32px; height: 32px;" alt="google plus" src="imgs/1432280818_googleplus.svg"></a></td>
-                  <td style="vertical-align: top; text-align: center;"><a href="https://github.com/chaitu236"><img style="border: 0px solid ; width: 32px; height: 32px;" alt="github" src="imgs/1432280849_github.svg"></a></td>
-                  <td style="vertical-align: top;"><a href="http://www.linkedin.com/in/chaitanyavadrevu/"><img style="border: 0px solid ; width: 32px; height: 32px;" alt="Linkedin" src="imgs/1432280820_linkedin.svg"></a></td>
-                  <td style="vertical-align: top;"><br>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      </td>
-      <td style="vertical-align: top; text-align: left;">I'm a Computer
+      <td id="content">I'm a Computer
 Science graduate student at Texas A&amp;M University.<br>
-The website is under construction.<br>
       <br>
-Click <a href="gradesearch.html">here</a> to go to grade search app<br>
-      <span style="text-decoration: underline;"></span> </td>
+Click <a href="gradesearch.html">here</a> to go to the grade search app<br>
+      <br>
+      </td>
     </tr>
   </tbody>
 </table>
-
-<br>
-
-<br>
-
 </body></html>
